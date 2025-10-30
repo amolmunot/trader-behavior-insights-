@@ -3,7 +3,7 @@
 
 This project analyzes Hyperliquid trader data against the "Fear & Greed Index" to test a common piece of trading wisdom: "Buy the fear, sell the greed." My goal was to move beyond assumptions and find the *actual* data-backed patterns that drive profitability.
 
-## 🚀 Key Findings & Core Insight
+## Key Findings & Core Insight
 
 My analysis revealed a counter-intuitive insight. The key differentiator for profitability wasn't buying fear, but rather **how different traders behaved during market euphoria**.
 
@@ -13,11 +13,11 @@ My analysis revealed a counter-intuitive insight. The key differentiator for pro
 
 3.  **The Average Trader:** The data *rejects* the initial hypothesis. On average, PnL was **statistically higher** during 'Greed' days than 'Fear' days (p-value: 3.24e-09).
 
-## 📈 Recommended Strategy (Based on Data)
+## Recommended Strategy (Based on Data)
 
 A simple "buy the dip" strategy is not supported by this data. A better, data-backed strategy is to **avoid opening short positions during periods of 'Extreme Greed'**, as this is the single biggest mistake unprofitable traders make. The "smart money" in this dataset wins by taking profits, not by trying to time the market top.
 
-## 🛠️ How to Run
+## How to Run
 
 The full analysis is contained in the `Trader_Sentiment_analysis.ipynb` notebook.
 
